@@ -13,7 +13,7 @@ const doctors = [
 export default function Doctors() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-200 to-purple-200 p-4">
-      <h1 className="text-xl font-bold">Available Doctors</h1>
+      <h1 className="">Available Doctors</h1>
       <div className="mt-4 space-y-3">
         {doctors.map((d, i) => (
           <div key={i} className="bg-white p-4 rounded-2xl shadow flex justify-between items-center">

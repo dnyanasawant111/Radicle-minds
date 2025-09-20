@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
 
 
 /* app/globals.css */
@@ -14,7 +15,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #fbcfe8, #c084fc);
   min-height: 100vh;
   padding: 1rem;
 }
@@ -29,15 +29,13 @@ body {
 }
 
 .btn {
-  background: #ec4899;
+  background: linear-gradient(to right, #BBA3E4, #E7A1A0);
   color: white;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
   border: none;
   cursor: pointer;
   transition: background 0.2s;
 }
-
 .btn:hover {
   background: #db2777;
 }
